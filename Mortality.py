@@ -8,16 +8,13 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 
 
+#file path to add later into a .venv file
+filpath = r"C:\mortality/dataset\1.csv";
 
+# read the CSV file with pandas
+df = pd.read_csv(filepath)
 
-
-
-
-
-
-
-
-
+print(df.head())
 
 
 # Set-up the one-hot encoder method
