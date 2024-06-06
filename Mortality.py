@@ -17,6 +17,7 @@ df = pd.read_csv(filepath)
 print(df.head())
 
 
+
 # Set-up the one-hot encoder method
 categorical_features = ['---']
 categorical_transformer = Pipeline(steps=[('onehot', OneHotEncoder())])
@@ -29,3 +30,5 @@ preprocessor = ColumnTransformer(
 # Add the classifier to the preprocessing pipeline
 pipeline = Pipeline(steps=[('preprocessor', preprocessor),
                       ('classifier', DecisionTreeClassifier())])
+
+train_test_split
