@@ -9,6 +9,8 @@ from sklearn.model_selection import train_test_split
 
 
 # Highest death rate%, what year, majority?  
+# Can we predict rates within a certain degree? 
+
 
 #file path to add later into a .venv file
 filpath = r"C:\mortality/dataset\1.csv";
