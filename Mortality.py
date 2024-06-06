@@ -8,6 +8,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 
 
+# Highest death rate%, what year, majority?  
+
 #file path to add later into a .venv file
 filpath = r"C:\mortality/dataset\1.csv";
 
