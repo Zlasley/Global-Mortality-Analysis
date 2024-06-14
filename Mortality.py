@@ -24,7 +24,8 @@ df_null = df.isnull().sum().sum()
 
 print(f"how many null values are in the df: {df_null}")
 
-print(df.len())
+print(f"{df.len()})
+
 # Set-up the one-hot encoder method
 categorical_features = ['---']
 categorical_transformer = Pipeline(steps=[('onehot', OneHotEncoder())])
