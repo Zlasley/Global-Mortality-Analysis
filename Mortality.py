@@ -24,7 +24,7 @@ df_null = df.isnull().sum().sum()
 
 print(f"how many null values are in the df: {df_null}")
 
-print(f"{df.len()})
+print(f"How many rows: {df.len()}")
 
 # Set-up the one-hot encoder method
 categorical_features = ['---']
