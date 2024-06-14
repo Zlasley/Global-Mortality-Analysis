@@ -22,7 +22,7 @@ print(df.head())
 
 df_null = df.isnull().sum().sum()
 
-print()
+print(f"how many null values are in the df: {df_null}")
 
 
 # Set-up the one-hot encoder method
