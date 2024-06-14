@@ -20,6 +20,9 @@ df = pd.read_csv(filepath)
 
 print(df.head())
 
+df_null = df.isnull().sum().sum()
+
+print()
 
 
 # Set-up the one-hot encoder method
