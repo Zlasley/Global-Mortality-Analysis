@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 
 
 #file path to add later into a .venv file
-filpath = r"C:\mortality/dataset\1.csv";
+filpath = r"C:\Users\ALasl\Documents\GitHub\Mortality\archive";
 
 # read the CSV file with pandas
 df = pd.read_csv(filepath)
