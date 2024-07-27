@@ -24,7 +24,7 @@ print( )
 
 print(df.describe())
 
-
+df_null = df.isnull().sum().sum()
 
 
 
