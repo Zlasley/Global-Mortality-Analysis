@@ -20,6 +20,10 @@ df = pd.read_csv(filepath)
 
 print(df.head())
 
+print( )
+
+print(df.describe())
+
 df_null = df.isnull().sum().sum()
 
 print(f"how many null values are in the df: {df_null}")
