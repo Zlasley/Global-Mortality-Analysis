@@ -11,12 +11,8 @@ from sklearn.model_selection import train_test_split
 # Highest death rate%, what year, majority?  
 # Can we predict rates within a certain degree? 
 
-
-#file path to add later into a .venv file
-filpath = r"C:\Users\ALasl\Documents\GitHub\Mortality\archive";
-
 # read the CSV file with pandas
-df = pd.read_csv(filepath)
+df = pd.read_csv(r"C:\Users\ALasl\Documents\GitHub\Mortality\archive")
 
 print(df.head())
 
