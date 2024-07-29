@@ -31,6 +31,8 @@ print(f"How many rows: {df.len()}")
 df = df.dropna(how="any") 
 df = df.drop_duplicates(inplace = True)
 
+print(df.corr())
+
 # Set-up the one-hot encoder method
 categorical_features = ['---']
 categorical_transformer = Pipeline(steps=[('onehot', OneHotEncoder())])
