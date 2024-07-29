@@ -28,6 +28,8 @@ print(f"how many null values are in the df: {df_null}")
 
 print(f"How many rows: {df.len()}")
 
+df = df.drop_duplicates(inplace = True)
+
 # Set-up the one-hot encoder method
 categorical_features = ['---']
 categorical_transformer = Pipeline(steps=[('onehot', OneHotEncoder())])
