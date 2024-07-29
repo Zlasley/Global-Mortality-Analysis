@@ -14,19 +14,19 @@ from sklearn.model_selection import train_test_split
 # read the CSV file with pandas
 df = pd.read_csv(r"C:\Users\ALasl\Documents\GitHub\Mortality\archive")
 
-print(df.head())
+#print(df.head())
 
-print( )
+#print( )
 
-print(df.describe())
+#print(df.describe())
 
 df_null = df.isnull().sum().sum()
 
-print(df.columns.values.tolist())
+#print(df.columns.values.tolist())
 
-print(f"how many null values are in the df: {df_null}")
+#print(f"how many null values are in the df: {df_null}")
 
-print(f"How many rows: {df.len()}")
+#print(f"How many rows: {df.len()}")
 
 df = df.dropna(how="any") 
 df = df.drop_duplicates(inplace = True)
