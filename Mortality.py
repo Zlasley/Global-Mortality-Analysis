@@ -1,6 +1,6 @@
 import pandas as pd
 import seaborn as sns
-import numpy as np
+import numpy as npp
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
